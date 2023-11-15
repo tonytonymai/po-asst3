@@ -10,15 +10,19 @@
   <body>
     <header id="header">
       <div class="container">
-        <a href="#" class="logo"><img src="image/pic2.jpg" /></a>
+        <a href="#" class="logo" id="logo"><img src="image/pic2.jpg" /></a>
+        <nav class="main-nav2">
+          <ul>
+          <li><a href="#home"><h1>Australia in 2050</h1></a></li>
+        </ul> 
+        </nav>
         <nav class="main-nav">
           <ul>
-            <li><a href="#home">Australia in 2050</a></li>
             <li><a href="#about">challenge 1</a></li>
             <li><a href="#service">challenge 2</a></li>
             <li><a href="#contact">challenge 3</a></li>
           </ul>
-        </nav>
+           </nav>
       </div>
     </header>
 
@@ -28,16 +32,14 @@
 <button onclick="changeImage">Change Image</button>
 
 </section> -->
-<section>
-<img id="bannerImage" >
-<a href="#" class="banner"><img src="image/pic3.jpg" /></a>
-   
+<section class="home image" id="home">
+<img id="bannerImage" src="image/pic3.jpg">  
 <button onclick="changeImage('image/pic3.jpg')">2050</button>
-<button onclick="changeImage('img src=image/ch1.jpg')">chanllenge1</button>
-<button onclick="changeImage('img src=image/ch2.jpg')">chanllenge2</button>
-<button onclick="changeImage('img scr=image/ch3.jpg')">chanllenge3</button>
+<button onclick="changeImage('image/ch1.jpg')">chanllenge1</button>
+<button onclick="changeImage('image/ch2.jpg')">chanllenge2</button>
+<button onclick="changeImage('image/ch3.jpg')">chanllenge3</button>
 </section>
-}
+
     <section class="about-section" id="about">
       <div class="container">
         <h1>Intergenerational challenges</h1>
@@ -200,5 +202,10 @@
             population.</p>
       </div>
     </section>
+
+    <footer>
+      <p>Australia 2050. All rights reserved 2023.</p>
+  </footer>
+
   </body>
 </html>
